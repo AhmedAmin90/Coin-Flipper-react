@@ -1,0 +1,26 @@
+.Flipper{
+    border: 1px solid darkgoldenrod;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: italic;
+
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    color: darkred;
+    font-size: large;
+    background-color: darkseagreen;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+button:active{
+    transform: rotateX(30deg)
+}

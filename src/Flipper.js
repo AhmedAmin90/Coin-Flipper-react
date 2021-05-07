@@ -1,5 +1,6 @@
 import React , {Component} from 'react'
 import Coin from './Coin'
+import './Flipper.css'
 
 class Flipper extends Component {
     state = {
@@ -24,7 +25,7 @@ class Flipper extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Flipper">
               <Coin img={this.state.img} />
               <button onClick={this.updateState}>Flipp</button>
               <p>You clicked: {this.state.click} Times </p>
